@@ -32,7 +32,7 @@ class SplineImputer:
         return y.reshape(-1, 1)
     
 # File upload
-st.title("Crop Price Forecasting using LSTM")
+st.title("crop-price-forecaster")
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv", "xlsx"])
 
 if uploaded_file:
